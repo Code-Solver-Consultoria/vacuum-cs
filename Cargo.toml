@@ -1,6 +1,6 @@
 [package]
 name = "vacuum-cs"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 authors = ["Luciano Vieira Rodrigues <luciano@codesolver.com.br>"]
 description = "PostgreSQL vacuum tool using Rust by Code Solver"
