@@ -21,12 +21,12 @@ jobs:
     - name: Bulid Windows
       run: cargo build --release --target x86_64-pc-windows-gnu
     - name: Upload Linux Binary
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: linux-binary
         path: target/release/vacuum-cs
     - name: Upload Windows Binary
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: windows-binary
         path: target/x86_64-pc-windows-gnu/release/vacuum-cs.exe
